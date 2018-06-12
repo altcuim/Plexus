@@ -3,30 +3,30 @@ EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
 # plexus qt core #
 QT_TS = \
-  qt/locale/prufus_bg.ts \
-  qt/locale/prufus_ca.ts \
-  qt/locale/prufus_cs.ts \
-  qt/locale/prufus_da.ts \
-  qt/locale/prufus_de.ts \
-  qt/locale/prufus_en.ts \
-  qt/locale/prufus_en_US.ts \
-  qt/locale/prufus_es.ts \
-  qt/locale/prufus_fi.ts \
-  qt/locale/prufus_fr_FR.ts \
-  qt/locale/prufus_it.ts \
-  qt/locale/prufus_ja.ts \
-  qt/locale/prufus_ko_KR.ts \
-  qt/locale/prufus_nl.ts \
-  qt/locale/prufus_pl.ts \
-  qt/locale/prufus_pt.ts \
-  qt/locale/prufus_pt_BR.ts \
-  qt/locale/prufus_ro_RO.ts \
-  qt/locale/prufus_ru.ts \
-  qt/locale/prufus_sk.ts \
-  qt/locale/prufus_sv.ts \
-  qt/locale/prufus_uk.ts \
-  qt/locale/prufus_zh_CN.ts \
-  qt/locale/prufus_zh_TW.ts
+  qt/locale/plexus_bg.ts \
+  qt/locale/plexus_ca.ts \
+  qt/locale/plexus_cs.ts \
+  qt/locale/plexus_da.ts \
+  qt/locale/plexus_de.ts \
+  qt/locale/plexus_en.ts \
+  qt/locale/plexus_en_US.ts \
+  qt/locale/plexus_es.ts \
+  qt/locale/plexus_fi.ts \
+  qt/locale/plexus_fr_FR.ts \
+  qt/locale/plexus_it.ts \
+  qt/locale/plexus_ja.ts \
+  qt/locale/plexus_ko_KR.ts \
+  qt/locale/plexus_nl.ts \
+  qt/locale/plexus_pl.ts \
+  qt/locale/plexus_pt.ts \
+  qt/locale/plexus_pt_BR.ts \
+  qt/locale/plexus_ro_RO.ts \
+  qt/locale/plexus_ru.ts \
+  qt/locale/plexus_sk.ts \
+  qt/locale/plexus_sv.ts \
+  qt/locale/plexus_uk.ts \
+  qt/locale/plexus_zh_CN.ts \
+  qt/locale/plexus_zh_TW.ts
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
@@ -366,7 +366,7 @@ qt/plexusstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURC
 
 translate: qt/plexusstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/prufus_en.ts
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/plexus_en.ts
 
 $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 	@test -f $(RCC)
