@@ -42,11 +42,11 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case Plexus:
-        return QString("prufus");
+        return QString("plexus");
     case mPlexus:
-        return QString("mprufus");
+        return QString("mplexus");
     case uPlexus:
-        return QString::fromUtf8("uprufus");
+        return QString::fromUtf8("uplexus");
     default:
         return QString("???");
     }

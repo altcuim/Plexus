@@ -20,7 +20,7 @@
       <string notr="true">QLabel { font-style:italic; }</string>
      </property>
      <property name="text">
-      <string>Welcome to PRUFUS</string>
+      <string>Welcome to Plexus</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
@@ -56,7 +56,7 @@
    <item>
     <widget class="QLabel" name="sizeWarningLabel">
      <property name="text">
-      <string>Plexus will download and store a copy of the PRUFUS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</string>
+      <string>Plexus will download and store a copy of the Plexus block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>

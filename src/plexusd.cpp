@@ -26,7 +26,7 @@
  * \section intro_sec Introduction
  *
  * This is the developer documentation of the reference client for an experimental new digital currency called Plexus (http://www.plexus.co),
- * which enables instant payments to anyone, anywhere in the world. PRUFUS uses peer-to-peer technology to operate
+ * which enables instant payments to anyone, anywhere in the world. Plexus uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.
@@ -122,7 +122,7 @@ bool AppInit(int argc, char* argv[])
 #ifndef WIN32
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon) {
-            fprintf(stdout, "PRUFUS server starting\n");
+            fprintf(stdout, "Plexus server starting\n");
 
             // Daemonize
             pid_t pid = fork();

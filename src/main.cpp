@@ -42,7 +42,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-#error "PRUFUS cannot be compiled without assertions."
+#error "Plexus cannot be compiled without assertions."
 #endif
 
 /**
