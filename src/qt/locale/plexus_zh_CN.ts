@@ -164,6 +164,6 @@
     </message>
     </context>
 <context>
-    <name>prufus-core</name>
+    <name>Plexus-core</name>
     </context>
 </TS>

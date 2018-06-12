@@ -148,8 +148,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Prufus&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE Prufus!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Plexus&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE Plexus!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -227,8 +227,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PRUFUS address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres PRUFUS jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this Plexus address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Plexus jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -518,16 +518,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>Prufus</source>
+        <source>Plexus</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     <message>
-        <source>Send coins to a PRUFUS address</source>
-        <translation>Wyślij monety do adresu PRUFUS</translation>
+        <source>Send coins to a Plexus address</source>
+        <translation>Wyślij monety do adresu Plexus</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and prufus: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i prufus:URI)</translation>
+        <source>Request payments (generates QR codes and Plexus: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i Plexus:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -538,24 +538,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Prufus</source>
+        <source>&amp;About Plexus</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about Prufus</source>
+        <source>Show information about Plexus</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for PRUFUS</source>
-        <translation>Modyfikuj opcje konfiguracji PRUFUS</translation>
+        <source>Modify configuration options for Plexus</source>
+        <translation>Modyfikuj opcje konfiguracji Plexus</translation>
     </message>
     <message>
-        <source>Sign messages with your PRUFUS addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami PRUFUS, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your Plexus addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami Plexus, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PRUFUS addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu PRUFUS</translation>
+        <source>Verify messages to ensure they were signed with specified Plexus addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu Plexus</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -582,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a PRUFUS: URI or payment request</source>
-        <translation>Otwórz PRUFUS: URI i żądanie zapłaty</translation>
+        <source>Open a Plexus: URI or payment request</source>
+        <translation>Otwórz Plexus: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the Prufus help message to get a list with possible PRUFUS command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia PRUFUS, aby dostać listę możliwych opcji PRUFUS command-line</translation>
+        <source>Show the Plexus help message to get a list with possible Plexus command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia Plexus, aby dostać listę możliwych opcji Plexus command-line</translation>
     </message>
     <message>
-        <source>Prufus client</source>
-        <translation>Rdzeń PRUFUS klient</translation>
+        <source>Plexus client</source>
+        <translation>Rdzeń Plexus klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -916,7 +916,7 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Prufus</source>
+        <source>Plexus</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     </context>
@@ -931,7 +931,7 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>Prufus</source>
+        <source>Plexus</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     <message>
@@ -1192,16 +1192,16 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start PRUFUS after logging in to the system.</source>
-        <translation>Automatycznie uruchom PRUFUS po zalogowaniu do systemu</translation>
+        <source>Automatically start Plexus after logging in to the system.</source>
+        <translation>Automatycznie uruchom Plexus po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start PRUFUS on system login</source>
-        <translation>&amp;Uruchom PRUFUS podczas logowania do systemu</translation>
+        <source>&amp;Start Plexus on system login</source>
+        <translation>&amp;Uruchom Plexus podczas logowania do systemu</translation>
     </message>
     <message>
-        <source>Amount of PRUFUS to keep anonymized</source>
-        <translation>Liczba PRUFUS do anonimizacji</translation>
+        <source>Amount of Plexus to keep anonymized</source>
+        <translation>Liczba Plexus do anonimizacji</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1220,18 +1220,18 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PRUFUS.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie PRUFUS</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Plexus.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Plexus</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/prufus-project/prufus-project-translations</source>
+https://www.transifex.com/Plexus-project/Plexus-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/prufus-project/prufus-project-translations </translation>
+https://www.transifex.com/Plexus-project/Plexus-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the PRUFUS network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią PRUFUS poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the Plexus network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią Plexus poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1373,7 +1373,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations </translati
         <translation>Status:</translation>
     </message>
     <message>
-        <source>0 Prufus / 0 Rounds</source>
+        <source>0 Plexus / 0 Rounds</source>
         <translation>0 OIVX / 0 Rund</translation>
     </message>
     <message>
@@ -1458,8 +1458,8 @@ https://www.transifex.com/prufus-project/prufus-project-translations </translati
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a PRUFUS address (e.g. %1)</source>
-        <translation>Wprowadź adres PRUFUS (np. %1)</translation>
+        <source>Enter a Plexus address (e.g. %1)</source>
+        <translation>Wprowadź adres Plexus (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1897,8 +1897,8 @@ https://www.transifex.com/prufus-project/prufus-project-translations </translati
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PRUFUS address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres PRUFUS jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this Plexus address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Plexus jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1932,7 +1932,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations </translati
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Prufus</source>
+        <source>Plexus</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     </context>
@@ -2024,7 +2024,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations </translati
     </message>
     </context>
 <context>
-    <name>prufus-core</name>
+    <name>Plexus-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

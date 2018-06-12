@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your Prufus addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše Prufus adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your Plexus addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše Plexus adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your Prufus addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše Prufus adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your Plexus addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše Plexus adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>Prufus will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Prufuss from being stolen by malware infecting your computer.</source>
-        <translation>Prufus se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše Prufusy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>Plexus will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Plexuss from being stolen by malware infecting your computer.</source>
+        <translation>Plexus se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše Plexusy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Prufus&lt;/b&gt;!</source>
-        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE Prufusy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Plexus&lt;/b&gt;!</source>
+        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE Plexusy&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Šifrovat</translation>
     </message>
     <message>
-        <source>Enter a Prufus Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadejte Prufus adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
+        <source>Enter a Plexus Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadejte Plexus adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The Prufus address to sign the message with</source>
-        <translation>Prufus adresa pro podepsání zprávy</translation>
+        <source>The Plexus address to sign the message with</source>
+        <translation>Plexus adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Prufus address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Prufus adresu</translation>
+        <source>Sign the message to prove you own this Plexus address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Plexus adresu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
-        <source>The Prufus address the message was signed with</source>
-        <translation>Prufus adresa zprávy byla podpsána</translation>
+        <source>The Plexus address the message was signed with</source>
+        <translation>Plexus adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Prufus address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Prufus adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Plexus address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Plexus adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>Prufus</source>
-        <translation>Prufus</translation>
+        <source>Plexus</source>
+        <translation>Plexus</translation>
     </message>
     <message>
-        <source>Send coins to a Prufus address</source>
-        <translation>Odeslat platbuna Prufus adresu</translation>
+        <source>Send coins to a Plexus address</source>
+        <translation>Odeslat platbuna Plexus adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and prufus: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a prufus: URIs)</translation>
+        <source>Request payments (generates QR codes and Plexus: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a Plexus: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About Prufus</source>
-        <translation>&amp;O Prufus</translation>
+        <source>&amp;About Plexus</source>
+        <translation>&amp;O Plexus</translation>
     </message>
     <message>
-        <source>Show information about Prufus</source>
-        <translation>Zobraz informace o Prufus</translation>
+        <source>Show information about Plexus</source>
+        <translation>Zobraz informace o Plexus</translation>
     </message>
     <message>
-        <source>Modify configuration options for Prufus</source>
-        <translation>Upravit možnosti konfigurace pro Prufus</translation>
+        <source>Modify configuration options for Plexus</source>
+        <translation>Upravit možnosti konfigurace pro Plexus</translation>
     </message>
     <message>
-        <source>Sign messages with your Prufus addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší Prufus adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your Plexus addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší Plexus adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Prufus addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými Prufus adresami</translation>
+        <source>Verify messages to ensure they were signed with specified Plexus addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými Plexus adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a Prufus: URI or payment request</source>
-        <translation>Otevřít Prufus: URI nebo platební žádost</translation>
+        <source>Open a Plexus: URI or payment request</source>
+        <translation>Otevřít Plexus: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the Prufus help message to get a list with possible Prufus command-line options</source>
-        <translation>Zobrazit Prufus pomocnou zpráv pro získání seznamu možných parametrů Prufus pro příkazy do příkazové řádky</translation>
+        <source>Show the Plexus help message to get a list with possible Plexus command-line options</source>
+        <translation>Zobrazit Plexus pomocnou zpráv pro získání seznamu možných parametrů Plexus pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>Prufus client</source>
-        <translation>Prufus klient</translation>
+        <source>Plexus client</source>
+        <translation>Plexus klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -809,8 +809,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (prufus.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (prufus.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Plexus.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (Plexus.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1070,8 +1070,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Prufus address.</source>
-        <translation>Zadaná adresa "%1" není validní Prufus adresa.</translation>
+        <source>The entered address "%1" is not a valid Plexus address.</source>
+        <translation>Zadaná adresa "%1" není validní Plexus adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1116,12 +1116,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>Prufus</source>
-        <translation>Prufus</translation>
+        <source>Plexus</source>
+        <translation>Plexus</translation>
     </message>
     <message>
-        <source>About Prufus</source>
-        <translation>O Prufus</translation>
+        <source>About Plexus</source>
+        <translation>O Plexus</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1155,16 +1155,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to Prufus</source>
-        <translation>Vítejte v Prufus</translation>
+        <source>Welcome to Plexus</source>
+        <translation>Vítejte v Plexus</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Prufus will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Prufus ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Plexus will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Plexus ukládat svá data.</translation>
     </message>
     <message>
-        <source>Prufus will download and store a copy of the Prufus block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Prufus stáhne a uloží kopii Prufus blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>Plexus will download and store a copy of the Plexus block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Plexus stáhne a uloží kopii Plexus blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1175,8 +1175,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>Prufus</source>
-        <translation>Prufus</translation>
+        <source>Plexus</source>
+        <translation>Plexus</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1442,24 +1442,24 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Vyberte úrpvěň ochrany soukromí</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 Prufus</source>
-        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 Prufus</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 Plexus</source>
+        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 Plexus</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použít 16 oddělených masternodů</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 Prufus to anonymize 10000 Prufus</source>
-        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 Prufus pro anonymizaci 10000 Prufus</translation>
+        <source>This option is the quickest and will cost about ~0.025 Plexus to anonymize 10000 Plexus</source>
+        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 Plexus pro anonymizaci 10000 Plexus</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Toto je nejpomalejší a nejvíce bezpečná volba. Použití maximalní anonymity bude stát</translation>
     </message>
     <message>
-        <source>0.1 Prufus per 10000 Prufus you anonymize.</source>
-        <translation>0.1 Prufus za 10000 Prufus anonymizujete.</translation>
+        <source>0.1 Plexus per 10000 Plexus you anonymize.</source>
+        <translation>0.1 Plexus za 10000 Plexus anonymizujete.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1524,16 +1524,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Prufus after logging in to the system.</source>
-        <translation>Automaticky spustit Prufus po přihlášení do systému</translation>
+        <source>Automatically start Plexus after logging in to the system.</source>
+        <translation>Automaticky spustit Plexus po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start Prufus on system login</source>
-        <translation>&amp;Spusti Prufus při přihlášení do systému</translation>
+        <source>&amp;Start Plexus on system login</source>
+        <translation>&amp;Spusti Plexus při přihlášení do systému</translation>
     </message>
     <message>
-        <source>Amount of Prufus to keep anonymized</source>
-        <translation>Počet Prufus pro anonymní držení</translation>
+        <source>Amount of Plexus to keep anonymized</source>
+        <translation>Počet Plexus pro anonymní držení</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -1639,8 +1639,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Obfuskační Balance:</translation>
     </message>
     <message>
-        <source>0 Prufus / 0 Rounds</source>
-        <translation>0 Prufus / 0 Kol</translation>
+        <source>0 Plexus / 0 Rounds</source>
+        <translation>0 Plexus / 0 Kol</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -2066,8 +2066,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Změna:</translation>
     </message>
     <message>
-        <source>0 Prufus</source>
-        <translation>0 Prufus</translation>
+        <source>0 Plexus</source>
+        <translation>0 Plexus</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2199,8 +2199,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Prufus address to sign the message with</source>
-        <translation>Prufus adresa pro podepsání zprávy</translation>
+        <source>The Plexus address to sign the message with</source>
+        <translation>Plexus adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2227,16 +2227,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Prufus address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Prufus adresu</translation>
+        <source>Sign the message to prove you own this Plexus address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Plexus adresu</translation>
     </message>
     <message>
-        <source>The Prufus address the message was signed with</source>
-        <translation>Prufus adresa zprávy byla podpsána</translation>
+        <source>The Plexus address the message was signed with</source>
+        <translation>Plexus adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Prufus address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Prufus adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Plexus address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Plexus adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2278,8 +2278,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Prufus</source>
-        <translation>Prufus</translation>
+        <source>Plexus</source>
+        <translation>Plexus</translation>
     </message>
     </context>
 <context>
@@ -2382,7 +2382,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>prufus-core</name>
+    <name>Plexus-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

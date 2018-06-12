@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your PRUFUS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina PRUFUS adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your Plexus addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina Plexus adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your PRUFUS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina PRUFUS adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your Plexus addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina Plexus adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,16 +160,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>PRUFUS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Prufuss from being stolen by malware infecting your computer.</source>
-        <translation>PRUFUS kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina Prufuss från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>Plexus will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Plexuss from being stolen by malware infecting your computer.</source>
+        <translation>Plexus kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina Plexuss från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Prufus&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA Prufus&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Plexus&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA Plexus&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a Prufus Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Skriv in en Prufus adress som du vill kryptera med BIP 38.
+        <source>Enter a Plexus Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Skriv in en Plexus adress som du vill kryptera med BIP 38.
 Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The PRUFUS address to sign the message with</source>
-        <translation>PRUFUS adressen för signera meddelandet med</translation>
+        <source>The Plexus address to sign the message with</source>
+        <translation>Plexus adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PRUFUS address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna PRUFUS adress</translation>
+        <source>Sign the message to prove you own this Plexus address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Plexus adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Ange</translation>
     </message>
     <message>
-        <source>The PRUFUS address the message was signed with</source>
-        <translation>PRUFUS adressen meddelandet blev signerat med</translation>
+        <source>The Plexus address the message was signed with</source>
+        <translation>Plexus adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PRUFUS address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika PRUFUS adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Plexus address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Plexus adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -583,16 +583,16 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>Prufus</source>
-        <translation>PRUFUS Kärna</translation>
+        <source>Plexus</source>
+        <translation>Plexus Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a PRUFUS address</source>
-        <translation>Skicka mynt till en PRUFUS adress</translation>
+        <source>Send coins to a Plexus address</source>
+        <translation>Skicka mynt till en Plexus adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and prufus: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och prufus: URls)</translation>
+        <source>Request payments (generates QR codes and Plexus: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och Plexus: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,24 +603,24 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Prufus</source>
-        <translation>Om PRUFUS Kärnan</translation>
+        <source>&amp;About Plexus</source>
+        <translation>Om Plexus Kärnan</translation>
     </message>
     <message>
-        <source>Show information about Prufus</source>
-        <translation>Visa information om PRUFUS Kärnan</translation>
+        <source>Show information about Plexus</source>
+        <translation>Visa information om Plexus Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for PRUFUS</source>
-        <translation>Ändra konfigurationsval för PRUFUS</translation>
+        <source>Modify configuration options for Plexus</source>
+        <translation>Ändra konfigurationsval för Plexus</translation>
     </message>
     <message>
-        <source>Sign messages with your PRUFUS addresses to prove you own them</source>
-        <translation>Signera meddelanden med din PRUFUS adress för att visa att du äger dem</translation>
+        <source>Sign messages with your Plexus addresses to prove you own them</source>
+        <translation>Signera meddelanden med din Plexus adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PRUFUS addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika PRUFUS adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified Plexus addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Plexus adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>Prufus client</source>
-        <translation>PRUFUS kärn klient</translation>
+        <source>Plexus client</source>
+        <translation>Plexus kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -841,15 +841,15 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Prufus</source>
-        <translation>PRUFUS Kärna</translation>
+        <source>Plexus</source>
+        <translation>Plexus Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Prufus</source>
-        <translation>PRUFUS Kärna</translation>
+        <source>Plexus</source>
+        <translation>Plexus Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1106,8 +1106,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The PRUFUS address to sign the message with</source>
-        <translation>PRUFUS adressen för signera meddelandet med</translation>
+        <source>The Plexus address to sign the message with</source>
+        <translation>Plexus adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1130,16 +1130,16 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PRUFUS address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna PRUFUS adress</translation>
+        <source>Sign the message to prove you own this Plexus address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Plexus adress</translation>
     </message>
     <message>
-        <source>The PRUFUS address the message was signed with</source>
-        <translation>PRUFUS adressen meddelandet blev signerat med</translation>
+        <source>The Plexus address the message was signed with</source>
+        <translation>Plexus adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PRUFUS address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika PRUFUS adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Plexus address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Plexus adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1181,8 +1181,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Prufus</source>
-        <translation>PRUFUS Kärna</translation>
+        <source>Plexus</source>
+        <translation>Plexus Kärna</translation>
     </message>
     </context>
 <context>
@@ -1365,7 +1365,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     </message>
     </context>
 <context>
-    <name>prufus-core</name>
+    <name>Plexus-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

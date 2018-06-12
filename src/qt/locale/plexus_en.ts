@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Prufus addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Plexus addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Prufus addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Plexus addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Prufus will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Prufuss from being stolen by malware infecting your computer.</source>
+        <source>Plexus will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Plexuss from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Prufus&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Plexus&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -307,7 +307,7 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>Enter a Prufus Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Plexus Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -318,7 +318,7 @@
     </message>
     <message>
         <location line="-355"/>
-        <source>The Prufus address to sign the message with</source>
+        <source>The Plexus address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -360,7 +360,7 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Prufus address</source>
+        <source>Sign the message to prove you own this Plexus address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -391,12 +391,12 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>The Prufus address the message was signed with</source>
+        <source>The Plexus address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+29"/>
-        <source>Verify the message to ensure it was signed with the specified Prufus address</source>
+        <source>Verify the message to ensure it was signed with the specified Plexus address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -771,17 +771,17 @@
     <message>
         <location line="-396"/>
         <location line="+831"/>
-        <source>Prufus</source>
+        <source>Plexus</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-652"/>
-        <source>Send coins to a Prufus address</source>
+        <source>Send coins to a Plexus address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and prufus: URIs)</source>
+        <source>Request payments (generates QR codes and Plexus: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -796,27 +796,27 @@
     </message>
     <message>
         <location line="+29"/>
-        <source>&amp;About Prufus</source>
+        <source>&amp;About Plexus</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Prufus</source>
+        <source>Show information about Plexus</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Modify configuration options for Prufus</source>
+        <source>Modify configuration options for Plexus</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>Sign messages with your Prufus addresses to prove you own them</source>
+        <source>Sign messages with your Plexus addresses to prove you own them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Prufus addresses</source>
+        <source>Verify messages to ensure they were signed with specified Plexus addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -856,7 +856,7 @@
     </message>
     <message>
         <location line="+10"/>
-        <source>Open a Prufus: URI or payment request</source>
+        <source>Open a Plexus: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -871,17 +871,17 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show the Prufus help message to get a list with possible Prufus command-line options</source>
+        <source>Show the Plexus help message to get a list with possible Plexus command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+201"/>
-        <source>Prufus client</source>
+        <source>Plexus client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+190"/>
-        <source>%n active connection(s) to Prufus network</source>
+        <source>%n active connection(s) to Plexus network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -1077,7 +1077,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+473"/>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (prufus.conf).</source>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Plexus.conf).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1456,7 +1456,7 @@ Address: %4
     </message>
     <message>
         <location line="+67"/>
-        <source>The entered address &quot;%1&quot; is not a valid Prufus address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Plexus address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1512,7 +1512,7 @@ Address: %4
     </message>
     <message>
         <location line="+0"/>
-        <source>Prufus</source>
+        <source>Plexus</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1523,7 +1523,7 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>About Prufus</source>
+        <source>About Plexus</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1581,17 +1581,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Prufus.</source>
+        <source>Welcome to Plexus.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Prufus will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Plexus will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Prufus will download and store a copy of the Prufus block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Plexus will download and store a copy of the Plexus block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1606,7 +1606,7 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+77"/>
-        <source>Prufus</source>
+        <source>Plexus</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1782,8 +1782,8 @@ Address: %4
     </message>
     <message>
         <location line="+16"/>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Prufus addresses after it matures.
-To Add: enter percentage to give and Prufus address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Plexus addresses after it matures.
+To Add: enter percentage to give and Plexus address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
         <translation type="unfinished"></translation>
@@ -1948,12 +1948,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 10000 Prufus</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 Plexus</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 10000 Prufus</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 Plexus</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1963,12 +1963,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 Prufus to anonymize 10000 Prufus</source>
+        <source>This option is the quickest and will cost about ~0.025 Plexus to anonymize 10000 Plexus</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 Prufus to anonymize 10000 Prufus</source>
+        <source>This option is moderately fast and will cost about 0.05 Plexus to anonymize 10000 Plexus</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1978,7 +1978,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>0.1 Prufus per 10000 Prufus you anonymize.</source>
+        <source>0.1 Plexus per 10000 Plexus you anonymize.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1990,17 +1990,17 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="-27"/>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Prufus&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Plexus&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Prufus&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Plexus&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Prufus&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Plexus&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2076,7 +2076,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+33"/>
-        <source>Automatically open the Prufus client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Plexus client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2101,12 +2101,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="-179"/>
-        <source>Automatically start Prufus after logging in to the system.</source>
+        <source>Automatically start Plexus after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Prufus on system login</source>
+        <source>&amp;Start Plexus on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2126,7 +2126,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+15"/>
-        <source>Amount of Prufus to keep anonymized</source>
+        <source>Amount of Plexus to keep anonymized</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2161,13 +2161,13 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+192"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Prufus.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Plexus.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/prufus-project/prufus-project-translations</source>
+https://www.transifex.com/Plexus-project/Plexus-project-translations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2177,7 +2177,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
     <message>
         <location line="+17"/>
-        <source>Connect to the Prufus network through a SOCKS5 proxy.</source>
+        <source>Connect to the Plexus network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2374,7 +2374,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
         <location line="+10"/>
         <location line="+1015"/>
         <location line="+93"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Prufus network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Plexus network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2429,7 +2429,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
     <message>
         <location line="+27"/>
-        <source>0 Prufus / 0 Rounds</source>
+        <source>0 Plexus / 0 Rounds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2661,12 +2661,12 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
     <message>
         <location line="-108"/>
-        <source>Cannot start prufus: click-to-pay handler</source>
+        <source>Cannot start Plexus: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+114"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Prufus address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Plexus address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2774,7 +2774,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+113"/>
-        <source>Enter a Prufus address (e.g. %1)</source>
+        <source>Enter a Plexus address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2969,7 +2969,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
     <message>
         <location line="+79"/>
-        <source>Open the Prufus debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Plexus debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3181,7 +3181,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
     <message>
         <location line="-36"/>
-        <source>Welcome to the Prufus RPC console.</source>
+        <source>Welcome to the Plexus RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3272,12 +3272,12 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
     <message>
         <location line="-37"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Prufus network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Plexus network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Prufus network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Plexus network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3570,7 +3570,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>0 Prufus</source>
+        <source>0 Plexus</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3630,18 +3630,18 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
     <message>
         <location line="-165"/>
-        <source>If the custom fee is set to 1000 uPrufuss and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uPrufuss in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uPrufuss. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uPlexuss and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uPlexuss in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uPlexuss. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uPrufuss and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uPrufuss in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uPrufuss. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uPlexuss and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uPlexuss in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uPlexuss. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Prufus transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Plexus transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3774,7 +3774,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
     <message>
         <location line="+632"/>
-        <source>Warning: Invalid Prufus address</source>
+        <source>Warning: Invalid Plexus address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3918,7 +3918,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Prufus address to send the payment to</source>
+        <source>The Plexus address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3972,7 +3972,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the Prufus: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Prufus network.</source>
+        <source>A message that was attached to the Plexus: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Plexus network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4007,7 +4007,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+75"/>
-        <source>Prufus is shutting down...</source>
+        <source>Plexus is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4035,7 +4035,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Prufus address to sign the message with</source>
+        <source>The Plexus address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4077,17 +4077,17 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Prufus address</source>
+        <source>Sign the message to prove you own this Plexus address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+106"/>
-        <source>The Prufus address the message was signed with</source>
+        <source>The Plexus address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Prufus address</source>
+        <source>Verify the message to ensure it was signed with the specified Plexus address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4202,7 +4202,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-        <source>Prufus</source>
+        <source>Plexus</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4222,7 +4222,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>The Prufus developers</source>
+        <source>The Plexus developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4935,7 +4935,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 Prufus.</source>
+        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 Plexus.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4988,9 +4988,9 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
 </context>
 <context>
-    <name>prufus-core</name>
+    <name>Plexus-core</name>
     <message>
-        <location filename="../prufusstrings.cpp" line="+12"/>
+        <location filename="../Plexusstrings.cpp" line="+12"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished">(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
@@ -5021,7 +5021,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Cannot obtain a lock on data directory %s. Prufus is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Plexus is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5046,7 +5046,7 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Disable all Prufus specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <source>Disable all Plexus specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5101,12 +5101,12 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in Prufus/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in Plexus/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in Prufus/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in Plexus/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5236,22 +5236,22 @@ https://www.transifex.com/prufus-project/prufus-project-translations</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>To use prufusd, or the -server option to prufus-qt, you must set an rpcpassword in the configuration file:
+        <source>To use Plexusd, or the -server option to Plexus-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=prufusrpc
+rpcuser=Plexusrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Prufus Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Plexus Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. Prufus is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Plexus is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5261,12 +5261,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Prufus Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 Prufus.</source>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 Plexus.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 Prufus.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 Plexus.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5286,7 +5286,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Prufus Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Prufus will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Plexus will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5476,7 +5476,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Prufus Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) %i The Prufus Developers</source>
+        <source>Copyright (C) %i The Plexus Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5566,7 +5566,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Prufus Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Prufus</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Plexus</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5631,7 +5631,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Prufus Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Fee (in Prufus/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in Plexus/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5706,7 +5706,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Prufus Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Prufus is shutting down.</source>
+        <source>Initialization sanity check failed. Plexus is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5846,7 +5846,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Prufus Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+53"/>
-        <source>Keep N Prufus anonymized (default: %u)</source>
+        <source>Keep N Plexus anonymized (default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6481,7 +6481,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Prufus Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Prufus to complete</source>
+        <source>Wallet needed to be rewritten: restart Plexus to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

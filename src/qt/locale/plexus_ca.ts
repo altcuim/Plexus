@@ -270,12 +270,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>Prufus</source>
-        <translation>Prufus</translation>
+        <source>Plexus</source>
+        <translation>Plexus</translation>
     </message>
     <message>
-        <source>&amp;About Prufus</source>
-        <translation>&amp;Sobre Prufus</translation>
+        <source>&amp;About Plexus</source>
+        <translation>&amp;Sobre Plexus</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -468,12 +468,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>Prufus</source>
-        <translation>Prufus</translation>
+        <source>Plexus</source>
+        <translation>Plexus</translation>
     </message>
     <message>
-        <source>About Prufus</source>
-        <translation>Sobre Prufus</translation>
+        <source>About Plexus</source>
+        <translation>Sobre Plexus</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -491,12 +491,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to Prufus</source>
-        <translation>Benvingut a Prufus</translation>
+        <source>Welcome to Plexus</source>
+        <translation>Benvingut a Plexus</translation>
     </message>
     <message>
-        <source>Prufus</source>
-        <translation>Prufus</translation>
+        <source>Plexus</source>
+        <translation>Plexus</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1048,8 +1048,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Prufus</source>
-        <translation>Prufus</translation>
+        <source>Plexus</source>
+        <translation>Plexus</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1200,7 +1200,7 @@
     </message>
     </context>
 <context>
-    <name>prufus-core</name>
+    <name>Plexus-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

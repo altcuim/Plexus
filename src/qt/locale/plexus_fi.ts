@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your Prufus addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun Prufus osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your Plexus addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun Plexus osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your Prufus addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun Prufus osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your Plexus addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun Plexus osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,16 +164,16 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>Prufus will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Prufuss from being stolen by malware infecting your computer.</source>
-        <translation>Prufus sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella Prufusien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>Plexus will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Plexuss from being stolen by malware infecting your computer.</source>
+        <translation>Plexus sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella Plexusien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Prufus&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki Prufusisi&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Plexus&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki Plexusisi&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -227,8 +227,8 @@
         <translation>&amp;BIP 38 Salaus</translation>
     </message>
     <message>
-        <source>Enter a Prufus Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Syötä Prufus osoite, jonnka tahtoisit salata käyttäen BIP 38.
+        <source>Enter a Plexus Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Syötä Plexus osoite, jonnka tahtoisit salata käyttäen BIP 38.
 Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityisavaimen.</translation>
     </message>
     <message>
@@ -236,8 +236,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Osoite:</translation>
     </message>
     <message>
-        <source>The Prufus address to sign the message with</source>
-        <translation>Prufus osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The Plexus address to sign the message with</source>
+        <translation>Plexus osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -268,8 +268,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Prufus address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Prufus osoitteen</translation>
+        <source>Sign the message to prove you own this Plexus address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Plexus osoitteen</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,8 +288,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;BIP 38 salauksen avaus</translation>
     </message>
     <message>
-        <source>The Prufus address the message was signed with</source>
-        <translation>Prufus osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The Plexus address the message was signed with</source>
+        <translation>Plexus osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -575,16 +575,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>Prufus</source>
-        <translation>Prufus Ydin</translation>
+        <source>Plexus</source>
+        <translation>Plexus Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a Prufus address</source>
-        <translation>Lähetä kolikkoja Prufus osoitteeseen</translation>
+        <source>Send coins to a Plexus address</source>
+        <translation>Lähetä kolikkoja Plexus osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and prufus: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja prufus: URIja)</translation>
+        <source>Request payments (generates QR codes and Plexus: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja Plexus: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -595,24 +595,24 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About Prufus</source>
-        <translation>Prufus &amp;ytimestä</translation>
+        <source>&amp;About Plexus</source>
+        <translation>Plexus &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about Prufus</source>
-        <translation>Näytä tietoja Prufus Ytimestä</translation>
+        <source>Show information about Plexus</source>
+        <translation>Näytä tietoja Plexus Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for Prufus</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja Prufus:lle</translation>
+        <source>Modify configuration options for Plexus</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja Plexus:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your Prufus addresses to prove you own them</source>
+        <source>Sign messages with your Plexus addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Prufus addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä Prufus osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified Plexus addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä Plexus osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -643,8 +643,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a Prufus: URI or payment request</source>
-        <translation>Avaa Prufus: URI tai pyydä maksua</translation>
+        <source>Open a Plexus: URI or payment request</source>
+        <translation>Avaa Plexus: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -655,12 +655,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the Prufus help message to get a list with possible Prufus command-line options</source>
-        <translation>Näytä Prufus Ydin apuviesti saadaksesi lista mahdollisista Prufus komentolinja komennoista.</translation>
+        <source>Show the Plexus help message to get a list with possible Plexus command-line options</source>
+        <translation>Näytä Plexus Ydin apuviesti saadaksesi lista mahdollisista Plexus komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>Prufus client</source>
-        <translation>Prufus Ydin asiakasohjelma</translation>
+        <source>Plexus client</source>
+        <translation>Plexus Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -894,8 +894,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Prufus</source>
-        <translation>Prufus Ydin</translation>
+        <source>Plexus</source>
+        <translation>Plexus Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -913,12 +913,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to Prufus.</source>
-        <translation>Tervetuloa Prufus Ytimeen.</translation>
+        <source>Welcome to Plexus.</source>
+        <translation>Tervetuloa Plexus Ytimeen.</translation>
     </message>
     <message>
-        <source>Prufus</source>
-        <translation>Prufus Ydin</translation>
+        <source>Plexus</source>
+        <translation>Plexus Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1091,32 +1091,32 @@ Please check the address and try again.</source>
         <translation>Valitse yksityisyyden taso.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 Prufus</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 Prufus</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 Plexus</source>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 Plexus</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 Prufus</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 Prufus</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 Plexus</source>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 Plexus</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Käytä 16 erillistä masternodea</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 Prufus to anonymize 10000 Prufus</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 Prufus anonymoidaksesi 10000 Prufus</translation>
+        <source>This option is the quickest and will cost about ~0.025 Plexus to anonymize 10000 Plexus</source>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 Plexus anonymoidaksesi 10000 Plexus</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 Prufus to anonymize 10000 Prufus</source>
-        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 Prufus anonymoidaksesi 10000 Prufus</translation>
+        <source>This option is moderately fast and will cost about 0.05 Plexus to anonymize 10000 Plexus</source>
+        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 Plexus anonymoidaksesi 10000 Plexus</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tämä on hitain ja turvallisin vaihtoehto. Täydesti anonymisoiminen ei maksa mitään.</translation>
     </message>
     <message>
-        <source>0.1 Prufus per 10000 Prufus you anonymize.</source>
-        <translation>0.1 per 10000 Prufus, jotka anonymisoit.</translation>
+        <source>0.1 Plexus per 10000 Plexus you anonymize.</source>
+        <translation>0.1 per 10000 Plexus, jotka anonymisoit.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1165,12 +1165,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start Prufus after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä Prufus kun kirjaudut sisään.</translation>
+        <source>Automatically start Plexus after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä Plexus kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start Prufus on system login</source>
-        <translation>&amp;Aloita Prufus järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start Plexus on system login</source>
+        <translation>&amp;Aloita Plexus järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1315,8 +1315,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the Prufus RPC console.</source>
-        <translation>Tervetuloa Prufus RPC konsoliin.</translation>
+        <source>Welcome to the Plexus RPC console.</source>
+        <translation>Tervetuloa Plexus RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1503,8 +1503,8 @@ Please check the address and try again.</source>
         <translation>ei</translation>
     </message>
     <message>
-        <source>0 Prufus</source>
-        <translation>0 Prufus</translation>
+        <source>0 Plexus</source>
+        <translation>0 Plexus</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -1608,8 +1608,8 @@ Please check the address and try again.</source>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Prufus address to sign the message with</source>
-        <translation>Prufus osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The Plexus address to sign the message with</source>
+        <translation>Plexus osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1632,12 +1632,12 @@ Please check the address and try again.</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Prufus address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Prufus osoitteen</translation>
+        <source>Sign the message to prove you own this Plexus address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Plexus osoitteen</translation>
     </message>
     <message>
-        <source>The Prufus address the message was signed with</source>
-        <translation>Prufus osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The Plexus address the message was signed with</source>
+        <translation>Plexus osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1675,8 +1675,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Prufus</source>
-        <translation>Prufus Ydin</translation>
+        <source>Plexus</source>
+        <translation>Plexus Ydin</translation>
     </message>
     </context>
 <context>
@@ -1887,7 +1887,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>prufus-core</name>
+    <name>Plexus-core</name>
     <message>
         <source>Error</source>
         <translation>Virhe</translation>
