@@ -523,15 +523,13 @@ Value getstakingstatus(const Array& params, bool fHelp)
 
     bool nStaking = false;
     if (mapHashedBlocks.count(chainActive.Tip()->nHeight)){
-	LogPrintf("(mapHashedBlocks.count(chainActive.Tip()->nHeight) \n");
+	
         nStaking = true;
 	}
     else if (mapHashedBlocks.count(chainActive.Tip()->nHeight - 1) && nLastCoinStakeSearchInterval){
- LogPrintf("(mapHashedBlocks.count(chainActive.Tip()->nHeight - 1) && nLastCoinStakeSearchInterval) \n");
-       nStaking = true;
+      nStaking = true;
 	}
-    obj.push_back(Pair("staking status", nStaking));
-
+    obj.push_back(Pair("staking status", nStaking));	
     return obj;
 }
 #endif // ENABLE_WALLET

@@ -465,14 +465,24 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
     }
 
     while (fGenerateBitcoins || fProofOfStake) {
+
+	   {
+            LOCK(cs_vNodes);
+            if (vNodes.empty()) {
+                MilliSleep(1000);
+                continue;
+            }
+        }
+
         if (fProofOfStake) {
             if (chainActive.Tip()->nHeight < Params().LAST_POW_BLOCK()) {
 		
                 MilliSleep(5000);
                 continue;
             }
-
-            while (chainActive.Tip()->nTime < 1528679162 || vNodes.size() < 3 || pwallet->IsLocked() || !fMintableCoins || nReserveBalance >= pwallet->GetBalance() || !masternodeSync.IsSynced()) {
+	
+            while (chainActive.Tip()->nTime < 1528679162 || vNodes.empty() || pwallet->IsLocked() || !fMintableCoins || nReserveBalance >= pwallet->GetBalance() || !masternodeSync.IsSynced()) {
+	
                 nLastCoinStakeSearchInterval = 0;
                 MilliSleep(5000);
                 if (!fGenerateBitcoins && !fProofOfStake)
@@ -483,6 +493,8 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
             {
                 if (GetTime() - mapHashedBlocks[chainActive.Tip()->nHeight] < max(pwallet->nHashInterval, (unsigned int)1)) // wait half of the nHashDrift with max wait of 3 minutes
                 {
+
+		LogPrintf("POS max(pwallet->nHashInterval: %d \n",max(pwallet->nHashInterval, (unsigned int)1));
                     MilliSleep(5000);
                     continue;
                 }
