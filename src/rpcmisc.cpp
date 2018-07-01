@@ -511,7 +511,7 @@ Value getstakingstatus(const Array& params, bool fHelp)
             HelpExampleCli("getstakingstatus", "") + HelpExampleRpc("getstakingstatus", ""));
 
     Object obj;
-    obj.push_back(Pair("validtime", chainActive.Tip()->nTime > 1471482000));
+    obj.push_back(Pair("validtime", chainActive.Tip()->nTime > 1530168819));
     obj.push_back(Pair("haveconnections", !vNodes.empty()));
     if (pwalletMain) {
         obj.push_back(Pair("walletunlocked", !pwalletMain->IsLocked()));
@@ -523,8 +523,8 @@ Value getstakingstatus(const Array& params, bool fHelp)
     bool nStaking = HasStaked();
 
     obj.push_back(Pair("staking status", nStaking));
-    //obj.push_back(Pair("staking weight", ValueFromAmount(pwalletMain->GetBalance())));		// test only
-	
+    obj.push_back(Pair("staking weight", ValueFromAmount(pwalletMain->GetStakeWeight())));		// test only
+    printf("Stake Weigh: %f\n",ValueFromAmount(pwalletMain->GetStakeWeight()));
     return obj;
 }
 #endif // ENABLE_WALLET

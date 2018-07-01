@@ -37,6 +37,7 @@ DEPENDPATH += . \
 INCLUDEPATH += . \
                src \
                src/config \
+                src/leveldb/ \
                src/leveldb/port/win \
                src/crypto \
                src/primitives \
@@ -640,7 +641,8 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/doc/bench/db_bench_tree_db.cc \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
-           src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
+           src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c \
+    src/kernel.cpp
 RESOURCES += src/qt/prufus.qrc src/qt/prufus_locale.qrc
 
 TRANSLATIONS += src/qt/locale/prufus_bg.ts \

@@ -2293,6 +2293,45 @@ bool CWallet::CreateTransaction(CScript scriptPubKey, const CAmount& nValue, CWa
 }
 
 
+CAmount CWallet::GetStakeWeight() const
+{
+    // Choose coins to use
+    vector<const CWalletTx*> vwtxPrev;
+
+    static std::set<pair<const CWalletTx*, unsigned int> > setStakeCoins;
+
+    int64_t nBalance = GetBalance();
+
+    if (nBalance <= nReserveBalance)
+        return 0;
+
+        setStakeCoins.clear();
+    if (!SelectStakeCoins(setStakeCoins, nBalance - nReserveBalance))
+        return 0;
+
+    if (setStakeCoins.empty())
+        return 0;
+
+    CAmount nWeight = 0;
+
+    int64_t nCurrentTime = GetTime();
+    //CTxDB txdb("r");
+
+    LOCK2(cs_main, cs_wallet);
+    BOOST_FOREACH(PAIRTYPE(const CWalletTx*, unsigned int) pcoin, setStakeCoins)
+    {
+
+        //BlockMap::iterator it = mapBlockIndex.find(pcoin.first->hashBlock);
+        //COutPoint prevoutStake = COutPoint(pcoin.first->GetHash(), pcoin.second);
+         //   continue;
+
+        if (nCurrentTime - pcoin.first->GetTxTime() > nStakeMinAge)
+            nWeight += pcoin.first->vout[pcoin.second].nValue;
+    }
+
+    return nWeight;
+}
+
 bool CWallet::SelectStakeCoins(std::set<std::pair<const CWalletTx*, unsigned int> >& setCoins, CAmount nTargetAmount) const
 {
 
@@ -2303,6 +2342,8 @@ bool CWallet::SelectStakeCoins(std::set<std::pair<const CWalletTx*, unsigned int
         const CWalletTx* pcoin = output.tx;
         int i = output.i;
         //make sure not to outrun target amount
+        if(!output.fSpendable)
+            continue;
         if (nAmountSelected + pcoin->vout[i].nValue > nTargetAmount)
             continue;
 
