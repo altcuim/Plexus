@@ -524,7 +524,7 @@ Value getstakingstatus(const Array& params, bool fHelp)
 
     obj.push_back(Pair("staking status", nStaking));
     obj.push_back(Pair("staking weight", ValueFromAmount(pwalletMain->GetStakeWeight())));		// test only
-    printf("Stake Weigh: %f\n",ValueFromAmount(pwalletMain->GetStakeWeight()));
+    //printf("Stake Weigh: %f\n",ValueFromAmount(pwalletMain->GetStakeWeight()));
     return obj;
 }
 #endif // ENABLE_WALLET

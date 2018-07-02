@@ -63,7 +63,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
             }
         } else {
             //stake reward
-            if (nNet >= 50)
+            if (nNet >= 30)
                 sub.type = TransactionRecord::StakeMN;
             else
                 sub.type = TransactionRecord::StakeMint;

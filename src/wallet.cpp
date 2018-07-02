@@ -21,6 +21,7 @@
 #include "timedata.h"
 #include "util.h"
 #include "utilmoneystr.h"
+#include "miner.h"
 
 #include <assert.h>
 
@@ -2301,7 +2302,8 @@ CAmount CWallet::GetStakeWeight() const
     static std::set<pair<const CWalletTx*, unsigned int> > setStakeCoins;
 
     int64_t nBalance = GetBalance();
-
+    if(!HasStaked())
+        return 0;
     if (nBalance <= nReserveBalance)
         return 0;
 
