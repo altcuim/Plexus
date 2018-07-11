@@ -93,7 +93,7 @@ TransactionView::TransactionView(QWidget* parent) : QWidget(parent), model(0), t
     typeWidget->addItem(tr("Obfuscation Collateral Payment"), TransactionFilterProxy::TYPE(TransactionRecord::ObfuscationCollateralPayment));
     typeWidget->addItem(tr("To yourself"), TransactionFilterProxy::TYPE(TransactionRecord::SendToSelf));
     typeWidget->addItem(tr("Mined"), TransactionFilterProxy::TYPE(TransactionRecord::Generated));
-    typeWidget->addItem(tr("Minted"), TransactionFilterProxy::TYPE(TransactionRecord::StakeMint));
+    typeWidget->addItem(tr("Stake Minted"), TransactionFilterProxy::TYPE(TransactionRecord::StakeMint));
     typeWidget->addItem(tr("Masternode Reward"), TransactionFilterProxy::TYPE(TransactionRecord::MNReward));
     typeWidget->addItem(tr("Stake + Masternode"), TransactionFilterProxy::TYPE(TransactionRecord::StakeMN));
     typeWidget->addItem(tr("Other"), TransactionFilterProxy::TYPE(TransactionRecord::Other));

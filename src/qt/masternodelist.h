@@ -21,6 +21,7 @@ class MasternodeList;
 
 class ClientModel;
 class WalletModel;
+//class AddressTableModel;
 
 QT_BEGIN_NAMESPACE
 class QModelIndex;
@@ -56,6 +57,7 @@ private:
     Ui::MasternodeList* ui;
     ClientModel* clientModel;
     WalletModel* walletModel;
+    //AddressTableModel* addressTabModel;
     CCriticalSection cs_mnlistupdate;
     QString strCurrentFilter;
 
@@ -66,5 +68,6 @@ private Q_SLOTS:
     void on_startMissingButton_clicked();
     void on_tableWidgetMyMasternodes_itemSelectionChanged();
     void on_UpdateButton_clicked();
+    void pushButtonCreateMnClicked();
 };
 #endif // MASTERNODELIST_H

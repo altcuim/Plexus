@@ -333,12 +333,12 @@ HEADERS += src/activemasternode.h \
            src/leveldb/port/win/stdint.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
-           src/qt/bitcoinamountfield.moc \
            src/qt/prufus.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
-           src/secp256k1/src/secp256k1.c
+           src/secp256k1/src/secp256k1.c \
+    src/qt/createmasternodedialog.h
 FORMS += src/qt/forms/addressbookpage.ui \
          src/qt/forms/askpassphrasedialog.ui \
          src/qt/forms/coincontroldialog.ui \
@@ -355,7 +355,12 @@ FORMS += src/qt/forms/addressbookpage.ui \
          src/qt/forms/sendcoinsdialog.ui \
          src/qt/forms/sendcoinsentry.ui \
          src/qt/forms/signverifymessagedialog.ui \
-         src/qt/forms/transactiondescdialog.ui
+         src/qt/forms/transactiondescdialog.ui \
+    src/qt/forms/tradingdialog.ui \
+    src/qt/forms/intro.ui \
+    src/qt/forms/masternodelist.ui \
+    src/qt/forms/overviewpage.ui \
+    src/qt/forms/createmasternodedialog.ui
 SOURCES += src/activemasternode.cpp \
            src/addrman.cpp \
            src/alert.cpp \
@@ -642,8 +647,12 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c \
-    src/kernel.cpp
-RESOURCES += src/qt/prufus.qrc src/qt/prufus_locale.qrc
+    src/kernel.cpp \
+    src/qt/masternodelist.cpp \
+    src/qt/createmasternodedialog.cpp
+RESOURCES += src/qt/prufus.qrc src/qt/prufus_locale.qrc \
+    src/qt/plexus.qrc \
+    src/qt/prufus.qrc
 
 TRANSLATIONS += src/qt/locale/prufus_bg.ts \
                 src/qt/locale/prufus_de.ts \

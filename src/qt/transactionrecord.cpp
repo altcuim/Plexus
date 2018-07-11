@@ -63,7 +63,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
             }
         } else {
             //stake reward
-            if (nNet >= 30)
+            if (nNet >= 30 * COIN)
                 sub.type = TransactionRecord::StakeMN;
             else
                 sub.type = TransactionRecord::StakeMint;
@@ -87,7 +87,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
                 sub.credit = txout.nValue;
                 sub.involvesWatchAddress = mine & ISMINE_WATCH_ONLY;
                 if (ExtractDestination(txout.scriptPubKey, address) && IsMine(*wallet, address)) {
-                    // Received by PRUFUS Address
+                    // Received by Plexus Address
                     sub.type = TransactionRecord::RecvWithAddress;
                     sub.address = CBitcoinAddress(address).ToString();
                 } else {

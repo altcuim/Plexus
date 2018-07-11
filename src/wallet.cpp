@@ -2410,28 +2410,33 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
     CAmount nCredit = 0;
     CScript scriptPubKeyKernel;
 
-    //prevent staking a time that won't be accepted
+   //prevent staking a time that won't be accepted
    // if (GetAdjustedTime() <= chainActive.Tip()->nTime)
-    //    MilliSleep(10000);
-if (GetAdjustedTime() - chainActive.Tip()->GetBlockTime() < Params().TargetSpacing())
-        MilliSleep(10000);
+   //    MilliSleep(10000);
+   // if (GetAdjustedTime() - chainActive.Tip()->GetBlockTime() < Params().TargetSpacing())
+   //   MilliSleep(10000);
 
     BOOST_FOREACH (PAIRTYPE(const CWalletTx*, unsigned int) pcoin, setStakeCoins) {
         //make sure that enough time has elapsed between
+        static int nMaxStakeSearchInterval = 60;
         CBlockIndex* pindex = NULL;
         BlockMap::iterator it = mapBlockIndex.find(pcoin.first->hashBlock);
         if (it != mapBlockIndex.end())
             pindex = it->second;
         else {
+            printf("CreateCoinStake() failed to find block index \n");
             if (fDebug)
                 LogPrintf("CreateCoinStake() failed to find block index \n");
+
             continue;
         }
-
         // Read block header
         CBlockHeader block = pindex->GetBlockHeader();
 
         bool fKernelFound = false;
+ for (unsigned int n=0; n<min(nSearchInterval,(int64_t)nMaxStakeSearchInterval) && !fKernelFound ; n++)
+        {
+
         uint256 hashProofOfStake = 0;
         COutPoint prevoutStake = COutPoint(pcoin.first->GetHash(), pcoin.second);
         nTxNewTime = GetAdjustedTime();
@@ -2495,6 +2500,8 @@ if (GetAdjustedTime() - chainActive.Tip()->GetBlockTime() < Params().TargetSpaci
             fKernelFound = true;
             break;
         }
+
+    }           //test POS v2.0.5
         if (fKernelFound)
             break; // if kernel is found stop searching
     }
