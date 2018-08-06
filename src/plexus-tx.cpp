@@ -46,10 +46,10 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Prufus prufus-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Plexus prufus-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
-                               "  prufus-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded prufus transaction") + "\n" +
-                               "  prufus-tx [options] -create [commands]   " + _("Create hex-encoded prufus transaction") + "\n" +
+                               "  plexus-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded plexus transaction") + "\n" +
+                               "  plexus-tx [options] -create [commands]   " + _("Create hex-encoded plexus transaction") + "\n" +
                                "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -550,7 +550,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw runtime_error("too few parameters");
 
-            // param: hex-encoded prufus transaction
+            // param: hex-encoded plexus transaction
             string strHexTx(argv[1]);
             if (strHexTx == "-") // "-" implies standard input
                 strHexTx = readStdin();

@@ -8,7 +8,7 @@
 #else
 #define UNUSED
 #endif
-static const char UNUSED *prufus_strings[] = {
+static const char UNUSED *plexus_strings[] = {
 QT_TRANSLATE_NOOP("plexus-core", ""
 "(1 = keep tx meta data e.g. account owner and payment request information, 2 "
 "= drop tx meta data)"),
@@ -268,7 +268,7 @@ QT_TRANSLATE_NOOP("plexus-core", "Error initializing wallet database environment
 QT_TRANSLATE_NOOP("plexus-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("plexus-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("plexus-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("plexus-core", "Error loading wallet.dat: Wallet requires newer version of Prufus"),
+QT_TRANSLATE_NOOP("plexus-core", "Error loading wallet.dat: Wallet requires newer version of Plexus"),
 QT_TRANSLATE_NOOP("plexus-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("plexus-core", "Error reading from database, shutting down."),
 QT_TRANSLATE_NOOP("plexus-core", "Error recovering public key."),
@@ -281,7 +281,7 @@ QT_TRANSLATE_NOOP("plexus-core", "Error: Wallet locked, unable to create transac
 QT_TRANSLATE_NOOP("plexus-core", "Error: You already have pending entries in the Obfuscation pool"),
 QT_TRANSLATE_NOOP("plexus-core", "Failed to listen on any port. Use -listen=0 if you want this."),
 QT_TRANSLATE_NOOP("plexus-core", "Failed to read block"),
-QT_TRANSLATE_NOOP("plexus-core", "Fee (in Prufus/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("plexus-core", "Fee (in Plexus/kB) to add to transactions you send (default: %s)"),
 QT_TRANSLATE_NOOP("plexus-core", "Finalizing transaction."),
 QT_TRANSLATE_NOOP("plexus-core", "Force safe mode (default: %u)"),
 QT_TRANSLATE_NOOP("plexus-core", "Found enough users, signing ( waiting %s )"),
@@ -296,7 +296,7 @@ QT_TRANSLATE_NOOP("plexus-core", "Incompatible mode."),
 QT_TRANSLATE_NOOP("plexus-core", "Incompatible version."),
 QT_TRANSLATE_NOOP("plexus-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("plexus-core", "Information"),
-QT_TRANSLATE_NOOP("plexus-core", "Initialization sanity check failed. Prufus is shutting down."),
+QT_TRANSLATE_NOOP("plexus-core", "Initialization sanity check failed. Plexus is shutting down."),
 QT_TRANSLATE_NOOP("plexus-core", "Input is not valid."),
 QT_TRANSLATE_NOOP("plexus-core", "Insufficient funds."),
 QT_TRANSLATE_NOOP("plexus-core", "Invalid -onion address: '%s'"),
@@ -312,7 +312,7 @@ QT_TRANSLATE_NOOP("plexus-core", "Invalid netmask specified in -whitelist: '%s'"
 QT_TRANSLATE_NOOP("plexus-core", "Invalid port detected in masternode.conf"),
 QT_TRANSLATE_NOOP("plexus-core", "Invalid private key."),
 QT_TRANSLATE_NOOP("plexus-core", "Invalid script detected."),
-QT_TRANSLATE_NOOP("plexus-core", "Keep N Prufus anonymized (default: %u)"),
+QT_TRANSLATE_NOOP("plexus-core", "Keep N Plexus anonymized (default: %u)"),
 QT_TRANSLATE_NOOP("plexus-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
 QT_TRANSLATE_NOOP("plexus-core", "Last Obfuscation was too recent."),
 QT_TRANSLATE_NOOP("plexus-core", "Last successful Obfuscation action was too recent."),
@@ -439,7 +439,7 @@ QT_TRANSLATE_NOOP("plexus-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("plexus-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("plexus-core", "Wallet %s resides outside data directory %s"),
 QT_TRANSLATE_NOOP("plexus-core", "Wallet is locked."),
-QT_TRANSLATE_NOOP("plexus-core", "Wallet needed to be rewritten: restart Prufus to complete"),
+QT_TRANSLATE_NOOP("plexus-core", "Wallet needed to be rewritten: restart Plexus to complete"),
 QT_TRANSLATE_NOOP("plexus-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("plexus-core", "Wallet window title"),
 QT_TRANSLATE_NOOP("plexus-core", "Warning"),

@@ -109,7 +109,7 @@ BitcoinGUI::BitcoinGUI(const NetworkStyle* networkStyle, QWidget* parent) : QMai
     /* Open CSS when configured */
     this->setStyleSheet(GUIUtil::loadStyleSheet());
 
-    GUIUtil::restoreWindowGeometry("nWindow", QSize(960, 642), this);
+    GUIUtil::restoreWindowGeometry("nWindow", QSize(960, 600), this);
 
     QString windowTitle = tr("Plexus") + " - ";
 #ifdef ENABLE_WALLET

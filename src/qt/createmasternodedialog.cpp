@@ -4,18 +4,20 @@
 #include "addresstablemodel.h"
 #include "bitcoingui.h"
 #include "csvmodelwriter.h"
-#include "editaddressdialog.h"
+#include "activemasternode.h"
+#include "clientmodel.h"
 #include "guiutil.h"
-#include "util.h"
-//#include "masternodeconfig.h"
-//m#include "masternodeman.h"
+#include "init.h"
+#include "masternode-sync.h"
+#include "masternodeconfig.h"
+#include "masternodeman.h"
 #include <boost/filesystem/fstream.hpp>
 #include <QIcon>
 
 #include <QMessageBox>
 
 using namespace std;
-//CCriticalSection cs_masternodes;
+CCriticalSection cs_masternodes;
 
 MNodeConfigDialog::MNodeConfigDialog(QWidget* parent) : QDialog(parent),
                                                         ui(new Ui::MNodeConfigDialog)
@@ -63,16 +65,18 @@ void MNodeConfigDialog::on_okButton_clicked()
          std::string sTxHash = ui->txhashLineEdit->text().toStdString();
          std::string sOutputIndex = ui->txindexLineEdit->text().toStdString();
 
-
+/*
          boost::filesystem::path pathMasternodeConfigFile = GetMasternodeConfigFile();
-         boost::filesystem::ifstream streamConfig(pathMasternodeConfigFile);
+         boost::filesystem::ofstream streamConfig(pathMasternodeConfigFile, ios::out | ios::app);
 
-         if (!streamConfig.good()) {
-             FILE* configFile = fopen(pathMasternodeConfigFile.string().c_str(), "a");
-
-             return ; // Nothing to read, so just return
+         if (streamConfig.is_open()) {
+            streamConfig << sAlias << " " << sAddress << " " << sMasternodePrivKey << " " << sTxHash << " " << sOutputIndex;
+            streamConfig << std::endl;
+            //return ; // Nothing to read, so just return
+            streamConfig.close();
          }
-         //masternodeConfig.add(sAlias, sAddress, sMasternodePrivKey, sTxHash, sOutputIndex, sDonationAddress, sDonationPercentage);
+         */
+         masternodeConfig.write(sAlias, sAddress, sMasternodePrivKey, sTxHash, sOutputIndex);
          accept();
      }
 

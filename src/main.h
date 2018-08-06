@@ -48,7 +48,7 @@ class CInv;
 class CScriptCheck;
 class CValidationInterface;
 class CValidationState;
-class CPrufus;
+class CPlexus;
 
 struct CBlockTemplate;
 struct CNodeStateStats;

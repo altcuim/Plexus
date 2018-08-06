@@ -500,6 +500,44 @@ boost::filesystem::path GetMasternodeConfigFile()
     return pathConfigFile;
 }
 
+static unsigned int RandomIntegerRange(unsigned int nMin, unsigned int nMax)
+{
+  srand(time(NULL) + nMax); //seed srand before using
+  return nMin + rand() % (nMax - nMin) + 1;
+}
+static std::string GenerateRandomString(unsigned int len) {
+    if (len == 0){
+        len = 24;
+    }
+    srand(time(NULL) + len); //seed srand before using
+    char s[len];
+    static const char alphanum[] =
+        "0123456789"
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        "abcdefghijklmnopqrstuvwxyz";
+
+    for (unsigned int i = 0; i < len; ++i) {
+        s[i] = alphanum[rand() % (sizeof(alphanum) - 1)];
+    }
+    s[len] = 0;
+    std::string sPassword(s);
+    return sPassword;
+}
+
+static void WriteConfigFile(FILE* configFile)
+{
+
+    fputs ("#Do not use special characters with username/password\n", configFile);
+    std::string sRPCpassword = "rpcpassword="+ GenerateRandomString(RandomIntegerRange(18, 24))+ "\n";
+    std::string sUserID = "rpcuser=plexusrpc\n";
+    fputs (sUserID.c_str(), configFile);
+    fputs (sRPCpassword.c_str(), configFile);
+    fputs ("rpcport=31002\n", configFile);
+    fputs ("port=31001\n",configFile);
+    fclose(configFile);
+    ReadConfigFile(mapArgs, mapMultiArgs);
+}
+
 void ReadConfigFile(map<string, string>& mapSettingsRet,
     map<string, vector<string> >& mapMultiSettingsRet)
 {
@@ -508,8 +546,8 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
         // Create empty plexus.conf if it does not exist
         FILE* configFile = fopen(GetConfigFile().string().c_str(), "a");
         if (configFile != NULL)
-            fclose(configFile);
-        return; // Nothing to read, so just return
+            WriteConfigFile(configFile);
+        //return; // Nothing to read, so just return
     }
 
     set<string> setOptions;

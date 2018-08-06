@@ -649,7 +649,8 @@ SOURCES += src/activemasternode.cpp \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c \
     src/kernel.cpp \
     src/qt/masternodelist.cpp \
-    src/qt/createmasternodedialog.cpp
+    src/qt/createmasternodedialog.cpp \
+    src/qt/plexus.cpp
 RESOURCES += src/qt/prufus.qrc src/qt/prufus_locale.qrc \
     src/qt/plexus.qrc \
     src/qt/prufus.qrc
@@ -670,3 +671,5 @@ TRANSLATIONS += src/qt/locale/prufus_bg.ts \
                 src/qt/locale/prufus_vi.ts \
                 src/qt/locale/prufus_zh_CN.ts \
                 src/qt/locale/prufus_zh_TW.ts
+
+DISTFILES +=

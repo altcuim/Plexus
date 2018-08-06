@@ -79,6 +79,21 @@ bool CMasternodeConfig::read(std::string& strErr)
     return true;
 }
 
+bool CMasternodeConfig::write(std::string sAlias, std::string sAddress, std::string sMasternodePrivKey, std::string sTxHash, std::string sOutputIndex){
+
+    boost::filesystem::path pathMasternodeConfigFile = GetMasternodeConfigFile();
+    boost::filesystem::ofstream streamConfig(pathMasternodeConfigFile, ios::out | ios::app);
+
+    if (streamConfig.is_open()) {
+       streamConfig << sAlias << " " << sAddress << " " << sMasternodePrivKey << " " << sTxHash << " " << sOutputIndex;
+       streamConfig << std::endl;
+       //return ; // Nothing to read, so just return
+       streamConfig.close();
+    }
+    add(sAlias, sAddress, sMasternodePrivKey, sTxHash, sOutputIndex);
+   return true;
+}
+
 bool CMasternodeConfig::CMasternodeEntry::castOutputIndex(int &n)
 {
     try {
