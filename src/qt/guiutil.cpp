@@ -111,7 +111,7 @@ void setupAddressWidget(QValidatedLineEdit* widget, QWidget* parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a Plexus address (e.g. %1)").arg("FHoujpfmyWqr69iWhv8D5kpenvSYwG1MGm"));
+    widget->setPlaceholderText(QObject::tr("Enter a Plexus address (e.g. %1)").arg("PHoujpfmyWqr69iWhv8D5kpenvSYwG1MGm"));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -814,7 +814,7 @@ bool isExternal(QString theme)
     if (theme.isEmpty())
         return false;
 
-    return (theme.operator!=("blue"));
+    return (theme.operator!=("default"));
 }
 
 // Open CSS when configured
@@ -829,8 +829,8 @@ QString loadStyleSheet()
             cssName = QString(":/css/") + theme;
         }
         else {
-            cssName = QString(":/css/blue");
-            settings.setValue("theme", "blue");
+            cssName = QString(":/css/default");
+            settings.setValue("theme", "default");
         }
 
         QFile qFile(cssName);

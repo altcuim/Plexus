@@ -17,7 +17,7 @@
 #include <QMessageBox>
 
 using namespace std;
-CCriticalSection cs_masternodes;
+//CCriticalSection cs_masternodes;
 
 MNodeConfigDialog::MNodeConfigDialog(QWidget* parent) : QDialog(parent),
                                                         ui(new Ui::MNodeConfigDialog)
