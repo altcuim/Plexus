@@ -34,7 +34,7 @@
 
 using namespace std;
 
-//PRUFUS only features
+//PLEXUS only features
 
 extern bool fMasterNode;
 extern bool fLiteMode;
@@ -218,7 +218,7 @@ void RenameThread(const char* name);
 template <typename Callable>
 void LoopForever(const char* name, Callable func, int64_t msecs)
 {
-    std::string s = strprintf("prufus-%s", name);
+    std::string s = strprintf("plexus-%s", name);
     RenameThread(s.c_str());
     LogPrintf("%s thread start\n", name);
     try {
@@ -244,7 +244,7 @@ void LoopForever(const char* name, Callable func, int64_t msecs)
 template <typename Callable>
 void TraceThread(const char* name, Callable func)
 {
-    std::string s = strprintf("prufus-%s", name);
+    std::string s = strprintf("plexus-%s", name);
     RenameThread(s.c_str());
     try {
         LogPrintf("%s thread start\n", name);

@@ -2180,7 +2180,7 @@ bool CWallet::CreateTransaction(const vector<pair<CScript, CAmount> >& vecSend,
                 if (nChange > 0) {
                     // Fill a vout to ourself
                     // TODO: pass in scriptChange instead of reservekey so
-                    // change transaction isn't always pay-to-prufus-address
+                    // change transaction isn't always pay-to-plexus-address
                     CScript scriptChange;
 
                     // coin control: send change to custom address
@@ -3740,9 +3740,9 @@ string CWallet::SendMoney(const CTxDestination &address, CAmount nValue, CWallet
     return "";
 }
 
-bool CWallet::IsMine(const string& prufus_address)
+bool CWallet::IsMine(const string& plexus_address)
 {
-    CBitcoinAddress check_address(prufus_address);
+    CBitcoinAddress check_address(plexus_address);
     CTxDestination dest = check_address.Get();
     isminetype mine = pwalletMain ? ::IsMine(*pwalletMain, dest) : ISMINE_NO;
 

@@ -32,9 +32,9 @@ SendCoinsEntry::SendCoinsEntry(QWidget* parent) : QStackedWidget(parent),
     ui->addAsLabel->setPlaceholderText(tr("Enter a label for this address to add it to your address book"));
 #endif
 
-    // normal prufus address field
+    // normal plexus address field
     GUIUtil::setupAddressWidget(ui->payTo, this);
-    // just a label for displaying prufus address(es)
+    // just a label for displaying plexus address(es)
     ui->payTo_is->setFont(GUIUtil::bitcoinAddressFont());
 
     // Connect signals

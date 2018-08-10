@@ -418,7 +418,7 @@
          <property name="minimumSize">
           <size>
            <width>0</width>
-           <height>250</height>
+           <height>244</height>
           </size>
          </property>
          <property name="layoutDirection">
@@ -542,7 +542,7 @@
             <x>120</x>
             <y>180</y>
             <width>221</width>
-            <height>31</height>
+            <height>30</height>
            </rect>
           </property>
           <property name="sizePolicy">
@@ -597,7 +597,7 @@
           <property name="geometry">
            <rect>
             <x>30</x>
-            <y>215</y>
+            <y>212</y>
             <width>201</width>
             <height>28</height>
            </rect>
@@ -619,7 +619,7 @@
           <property name="geometry">
            <rect>
             <x>230</x>
-            <y>215</y>
+            <y>212</y>
             <width>201</width>
             <height>28</height>
            </rect>
