@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>960</width>
-    <height>532</height>
+    <height>486</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -22,6 +22,9 @@
   <layout class="QVBoxLayout" name="topLayout">
    <property name="spacing">
     <number>4</number>
+   </property>
+   <property name="topMargin">
+    <number>2</number>
    </property>
    <property name="bottomMargin">
     <number>8</number>
@@ -45,6 +48,12 @@
           <enum>QFrame::Raised</enum>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_4">
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
+          </property>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_4">
             <item>
@@ -103,8 +112,11 @@
           </item>
           <item>
            <layout class="QGridLayout" name="gridLayout">
-            <property name="spacing">
+            <property name="horizontalSpacing">
              <number>12</number>
+            </property>
+            <property name="verticalSpacing">
+             <number>8</number>
             </property>
             <item row="2" column="2">
              <widget class="QLabel" name="labelWatchPending">
@@ -406,7 +418,7 @@
          <property name="minimumSize">
           <size>
            <width>0</width>
-           <height>290</height>
+           <height>250</height>
           </size>
          </property>
          <property name="layoutDirection">
@@ -422,9 +434,9 @@
           <property name="geometry">
            <rect>
             <x>10</x>
-            <y>40</y>
+            <y>30</y>
             <width>451</width>
-            <height>151</height>
+            <height>131</height>
            </rect>
           </property>
           <layout class="QFormLayout" name="formLayout">
@@ -435,7 +447,7 @@
             <number>11</number>
            </property>
            <property name="verticalSpacing">
-            <number>12</number>
+            <number>8</number>
            </property>
            <item row="0" column="0">
             <widget class="QLabel" name="label_6">
@@ -965,7 +977,7 @@
           <property name="geometry">
            <rect>
             <x>120</x>
-            <y>220</y>
+            <y>180</y>
             <width>221</width>
             <height>31</height>
            </rect>
@@ -984,7 +996,7 @@
           <property name="geometry">
            <rect>
             <x>10</x>
-            <y>190</y>
+            <y>155</y>
             <width>441</width>
             <height>16</height>
            </rect>
@@ -997,7 +1009,7 @@
           <property name="geometry">
            <rect>
             <x>10</x>
-            <y>200</y>
+            <y>160</y>
             <width>451</width>
             <height>20</height>
            </rect>
@@ -1022,7 +1034,7 @@
           <property name="geometry">
            <rect>
             <x>30</x>
-            <y>260</y>
+            <y>215</y>
             <width>201</width>
             <height>28</height>
            </rect>
@@ -1044,7 +1056,7 @@
           <property name="geometry">
            <rect>
             <x>230</x>
-            <y>260</y>
+            <y>215</y>
             <width>201</width>
             <height>28</height>
            </rect>

@@ -360,7 +360,8 @@ FORMS += src/qt/forms/addressbookpage.ui \
     src/qt/forms/intro.ui \
     src/qt/forms/masternodelist.ui \
     src/qt/forms/overviewpage.ui \
-    src/qt/forms/createmasternodedialog.ui
+    src/qt/forms/createmasternodedialog.ui \
+    src/qt/forms/blockexplorer.ui
 SOURCES += src/activemasternode.cpp \
            src/addrman.cpp \
            src/alert.cpp \
