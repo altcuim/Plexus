@@ -2025,7 +2025,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("prufus-scriptch");
+    RenameThread("plexus-scriptch");
     scriptcheckqueue.Thread();
 }
 

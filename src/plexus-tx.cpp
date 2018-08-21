@@ -46,7 +46,7 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Plexus prufus-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Plexus plexus-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
                                "  plexus-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded plexus transaction") + "\n" +
                                "  plexus-tx [options] -create [commands]   " + _("Create hex-encoded plexus transaction") + "\n" +

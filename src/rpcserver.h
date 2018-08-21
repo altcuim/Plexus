@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * PRUFUS RPC command dispatcher.
+ * PLEXUS RPC command dispatcher.
  */
 class CRPCTable
 {

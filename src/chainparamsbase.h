@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between prufus-cli and prufusd)
- * of a given instance of the Prufus system.
+ * CBaseChainParams defines the base parameters (shared between plexus-cli and plexusd)
+ * of a given instance of the Plexus system.
  */
 class CBaseChainParams
 {

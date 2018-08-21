@@ -60,7 +60,7 @@ const char* BIP70_MESSAGE_PAYMENTREQUEST = "PaymentRequest";
 // BIP71 payment protocol media types
 const char* BIP71_MIMETYPE_PAYMENT = "application/plexus-payment";
 const char* BIP71_MIMETYPE_PAYMENTACK = "application/plexus-paymentack";
-const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/prufus-paymentrequest";
+const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/plexus-paymentrequest";
 // BIP70 max payment request size in bytes (DoS protection)
 const qint64 BIP70_MAX_PAYMENTREQUEST_SIZE = 50000;
 
@@ -194,11 +194,11 @@ void PaymentServer::ipcParseCommandLine(int argc, char* argv[])
         if (arg.startsWith("-"))
             continue;
 
-        // If the prufus: URI contains a payment request, we are not able to detect the
+        // If the plexus: URI contains a payment request, we are not able to detect the
         // network as that would require fetching and parsing the payment request.
         // That means clicking such an URI which contains a testnet payment request
         // will start a mainnet instance and throw a "wrong network" error.
-        if (arg.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // prufus: URI
+        if (arg.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // plexus: URI
         {
             savedPaymentRequests.append(arg);
 
@@ -280,7 +280,7 @@ PaymentServer::PaymentServer(QObject* parent, bool startLocalServer) : QObject(p
     GOOGLE_PROTOBUF_VERIFY_VERSION;
 
     // Install global event filter to catch QFileOpenEvents
-    // on Mac: sent when you click prufus: links
+    // on Mac: sent when you click plexus: links
     // other OSes: helpful when dealing with payment request files (in the future)
     if (parent)
         parent->installEventFilter(this);
@@ -310,12 +310,12 @@ PaymentServer::~PaymentServer()
 }
 
 //
-// OSX-specific way of handling prufus: URIs and
+// OSX-specific way of handling plexus: URIs and
 // PaymentRequest mime types
 //
 bool PaymentServer::eventFilter(QObject* object, QEvent* event)
 {
-    // clicking on prufus: URIs creates FileOpen events on the Mac
+    // clicking on plexus: URIs creates FileOpen events on the Mac
     if (event->type() == QEvent::FileOpen) {
         QFileOpenEvent* fileEvent = static_cast<QFileOpenEvent*>(event);
         if (!fileEvent->file().isEmpty())
@@ -336,7 +336,7 @@ void PaymentServer::initNetManager()
     if (netManager != NULL)
         delete netManager;
 
-    // netManager is used to fetch paymentrequests given in prufus: URIs
+    // netManager is used to fetch paymentrequests given in plexus: URIs
     netManager = new QNetworkAccessManager(this);
 
     QNetworkProxy proxy;
@@ -373,7 +373,7 @@ void PaymentServer::handleURIOrFile(const QString& s)
         return;
     }
 
-    if (s.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // prufus: URI
+    if (s.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // plexus: URI
     {
 #if QT_VERSION < 0x050000
         QUrl uri(s);
@@ -525,7 +525,7 @@ bool PaymentServer::processPaymentRequest(PaymentRequestPlus& request, SendCoins
             // Append destination address
             addresses.append(QString::fromStdString(CBitcoinAddress(dest).ToString()));
         } else if (!recipient.authenticatedMerchant.isEmpty()) {
-            // Insecure payments to custom prufus addresses are not supported
+            // Insecure payments to custom plexus addresses are not supported
             // (there is no good way to tell the user where they are paying in a way
             // they'd have a chance of understanding).
             emit message(tr("Payment request rejected"),
