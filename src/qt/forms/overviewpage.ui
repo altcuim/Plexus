@@ -7,13 +7,13 @@
     <x>0</x>
     <y>0</y>
     <width>960</width>
-    <height>486</height>
+    <height>423</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>960</width>
-    <height>0</height>
+    <height>400</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -418,7 +418,7 @@
          <property name="minimumSize">
           <size>
            <width>0</width>
-           <height>238</height>
+           <height>215</height>
           </size>
          </property>
          <property name="maximumSize">
@@ -442,7 +442,7 @@
             <x>10</x>
             <y>30</y>
             <width>451</width>
-            <height>128</height>
+            <height>121</height>
            </rect>
           </property>
           <layout class="QFormLayout" name="formLayout">
@@ -459,6 +459,13 @@
             <widget class="QLabel" name="label_6">
              <property name="text">
               <string>Status:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLabel" name="obfuscationEnabled">
+             <property name="text">
+              <string>Enabled/Disabled</string>
              </property>
             </widget>
            </item>
@@ -533,13 +540,6 @@
              </property>
             </widget>
            </item>
-           <item row="0" column="1">
-            <widget class="QLabel" name="obfuscationEnabled">
-             <property name="text">
-              <string>Enabled/Disabled</string>
-             </property>
-            </widget>
-           </item>
            <item row="5" column="0" colspan="2">
             <widget class="Line" name="lineLastMessage">
              <property name="orientation">
@@ -553,9 +553,9 @@
           <property name="geometry">
            <rect>
             <x>120</x>
-            <y>175</y>
+            <y>160</y>
             <width>221</width>
-            <height>30</height>
+            <height>25</height>
            </rect>
           </property>
           <property name="sizePolicy">
@@ -572,7 +572,7 @@
           <property name="geometry">
            <rect>
             <x>10</x>
-            <y>155</y>
+            <y>150</y>
             <width>451</width>
             <height>20</height>
            </rect>
@@ -597,9 +597,9 @@
           <property name="geometry">
            <rect>
             <x>30</x>
-            <y>206</y>
+            <y>185</y>
             <width>201</width>
-            <height>28</height>
+            <height>25</height>
            </rect>
           </property>
           <property name="sizePolicy">
@@ -619,9 +619,9 @@
           <property name="geometry">
            <rect>
             <x>230</x>
-            <y>206</y>
+            <y>185</y>
             <width>201</width>
-            <height>28</height>
+            <height>25</height>
            </rect>
           </property>
           <property name="sizePolicy">
