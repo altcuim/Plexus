@@ -1064,7 +1064,7 @@ qproperty-geometry: rect(0 0 0 0);
 }
 
 QWidget .QFrame#frameObfuscation .QPushButton#toggleObfuscation { /* Start Obfuscation Mixing */
-qproperty-geometry: rect(115 268 295 40);
+qproperty-geometry: rect(115 268 295 20);
 font-size:15px;
 font-weight:bold;
 color:#ffffff;
