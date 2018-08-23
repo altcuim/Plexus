@@ -930,7 +930,8 @@ margin-left:16px;
 
 QWidget .QFrame#frameObfuscation { /* Obfuscation Widget */
 background-color:transparent;
-qproperty-minimumSize: 451px 343px;
+qproperty-minimumSize: 451px 260px;
+max-height: 280;
 }
 
 QWidget .QFrame#frameObfuscation QWidget {
@@ -958,6 +959,8 @@ margin-left:2px;
 
 QWidget .QFrame#frameObfuscation #formLayoutWidget {
 qproperty-geometry: rect(10 51 451 175);
+max-width: 451px;
+max-height: 175px;
 }
 
 QWidget .QFrame#frameObfuscation #formLayoutWidget > .QLabel {
@@ -1064,7 +1067,8 @@ qproperty-geometry: rect(0 0 0 0);
 }
 
 QWidget .QFrame#frameObfuscation .QPushButton#toggleObfuscation { /* Start Obfuscation Mixing */
-qproperty-geometry: rect(115 268 295 20);
+qproperty-geometry: rect(115 268 295 25);
+min-width:160px;
 font-size:15px;
 font-weight:bold;
 color:#ffffff;
