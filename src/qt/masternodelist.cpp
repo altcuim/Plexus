@@ -331,6 +331,6 @@ void MasternodeList::on_UpdateButton_clicked()
 void MasternodeList::pushButtonCreateMnClicked()
 {
     MNodeConfigDialog* addmnnode = new MNodeConfigDialog();
-        addmnnode->exec();
+        addmnnode->show();
 
 }

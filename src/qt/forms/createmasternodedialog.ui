@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>MNodeConfigDialog</class>
- <widget class="QDialog" name="MNodeConfigDialog">
+ <widget class="QWidget" name="MNodeConfigDialog">
   <property name="geometry">
    <rect>
     <x>0</x>
