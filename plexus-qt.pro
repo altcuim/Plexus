@@ -37,6 +37,7 @@ DEPENDPATH += . \
 INCLUDEPATH += . \
                src \
                src/config \
+                src/leveldb/ \
                src/leveldb/port/win \
                src/crypto \
                src/primitives \
@@ -332,12 +333,12 @@ HEADERS += src/activemasternode.h \
            src/leveldb/port/win/stdint.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
-           src/qt/bitcoinamountfield.moc \
            src/qt/prufus.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
-           src/secp256k1/src/secp256k1.c
+           src/secp256k1/src/secp256k1.c \
+    src/qt/createmasternodedialog.h
 FORMS += src/qt/forms/addressbookpage.ui \
          src/qt/forms/askpassphrasedialog.ui \
          src/qt/forms/coincontroldialog.ui \
@@ -354,7 +355,13 @@ FORMS += src/qt/forms/addressbookpage.ui \
          src/qt/forms/sendcoinsdialog.ui \
          src/qt/forms/sendcoinsentry.ui \
          src/qt/forms/signverifymessagedialog.ui \
-         src/qt/forms/transactiondescdialog.ui
+         src/qt/forms/transactiondescdialog.ui \
+    src/qt/forms/tradingdialog.ui \
+    src/qt/forms/intro.ui \
+    src/qt/forms/masternodelist.ui \
+    src/qt/forms/overviewpage.ui \
+    src/qt/forms/createmasternodedialog.ui \
+    src/qt/forms/blockexplorer.ui
 SOURCES += src/activemasternode.cpp \
            src/addrman.cpp \
            src/alert.cpp \
@@ -640,8 +647,14 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/doc/bench/db_bench_tree_db.cc \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
-           src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/prufus.qrc src/qt/prufus_locale.qrc
+           src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c \
+    src/kernel.cpp \
+    src/qt/masternodelist.cpp \
+    src/qt/createmasternodedialog.cpp \
+    src/qt/plexus.cpp
+RESOURCES += src/qt/prufus.qrc src/qt/prufus_locale.qrc \
+    src/qt/plexus.qrc \
+    src/qt/prufus.qrc
 
 TRANSLATIONS += src/qt/locale/prufus_bg.ts \
                 src/qt/locale/prufus_de.ts \
@@ -659,3 +672,5 @@ TRANSLATIONS += src/qt/locale/prufus_bg.ts \
                 src/qt/locale/prufus_vi.ts \
                 src/qt/locale/prufus_zh_CN.ts \
                 src/qt/locale/prufus_zh_TW.ts
+
+DISTFILES +=

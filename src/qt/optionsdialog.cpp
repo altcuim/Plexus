@@ -81,7 +81,8 @@ OptionsDialog::OptionsDialog(QWidget* parent, bool enableWallet) : QDialog(paren
     }
 
     /* Theme selector static themes */
-    ui->theme->addItem(QString("Default"), QVariant("default"));
+    ui->theme->addItem(QString("Plexus-blue"), QVariant("default"));
+    ui->theme->addItem(QString("Plexus-dark"), QVariant("dark"));
 
     /* Theme selector external themes */
     boost::filesystem::path pathAddr = GetDataDir() / "themes";

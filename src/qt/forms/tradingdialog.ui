@@ -442,10 +442,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Buy Prufus</string>
+      <string>Buy Plexus</string>
      </property>
      <property name="icon">
-      <iconset resource="../prufus.qrc">
+      <iconset resource="../plexus.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -1754,7 +1754,7 @@
       <string>Sell Prufus</string>
      </property>
      <property name="icon">
-      <iconset resource="../prufus">
+      <iconset resource="../plexus.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -1763,7 +1763,7 @@
       <rect>
        <x>22</x>
        <y>12</y>
-       <width>258</width>
+       <width>272</width>
        <height>19</height>
       </rect>
      </property>
@@ -2762,7 +2762,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Prufus Balance:</string>
+      <string>Plexus Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2941,10 +2941,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Generate Prufus Deposit Address</string>
+      <string>Generate Plexus Deposit Address</string>
      </property>
      <property name="icon">
-      <iconset resource="../prufus.qrc">
+      <iconset resource="../plexus.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3206,7 +3206,7 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="../prufus.qrc">:/icons/transaction_1</pixmap>
+       <pixmap resource="../plexus.qrc">:/icons/transaction_1</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -3253,7 +3253,7 @@
       <string>Update API Keys</string>
      </property>
      <property name="icon">
-      <iconset resource="../prufus.qrc">
+      <iconset resource="../plexus.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3408,7 +3408,7 @@
   </widget>
  </widget>
  <resources>
-  <include location="../prufus.qrc"/>
+  <include location="../plexus.qrc"/>
  </resources>
  <connections/>
 </ui>

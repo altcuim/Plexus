@@ -1,6 +1,6 @@
 Mac OS X Build Instructions and Notes
 ====================================
-This guide will show you how to build prufusd (headless client) for OSX.
+This guide will show you how to build plexusd (headless client) for OSX.
 
 Notes
 -----
@@ -40,14 +40,14 @@ Instructions: Homebrew
 
         brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf qt5
 
-### Building `prufusd`
+### Building `plexusd`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/PrufusCoin/prufus.git
-        cd prufus
+        git clone https://github.com/PlexusCoin/plexus.git
+        cd plexus
 
-2.  Build prufusd:
+2.  Build plexusd:
 
         ./autogen.sh
         ./configure --with-gui=qt5
@@ -57,7 +57,7 @@ Instructions: Homebrew
 
         make check
 
-4.  (Optional) You can also install prufusd to your path:
+4.  (Optional) You can also install plexusd to your path:
 
         make install
 
@@ -69,7 +69,7 @@ Download Qt Creator from http://www.qt.io/download/. Download the "community edi
 1. Make sure you installed everything through homebrew mentioned above
 2. Do a proper ./configure --with-gui=qt5 --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "prufus-qt" as project name, enter src/qt as location
+4. Enter "plexus-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."
@@ -79,11 +79,11 @@ Download Qt Creator from http://www.qt.io/download/. Download the "community edi
 
 Creating a release build
 ------------------------
-You can ignore this section if you are building `prufusd` for your own use.
+You can ignore this section if you are building `plexusd` for your own use.
 
-prufusd/prufus-cli binaries are not included in the prufus-Qt.app bundle.
+plexusd/plexus-cli binaries are not included in the plexus-Qt.app bundle.
 
-If you are building `prufusd` or `prufus-qt` for others, your build machine should be set up
+If you are building `plexusd` or `plexus-qt` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -98,24 +98,24 @@ bundle is packaged and signed to create the .dmg disk image that is distributed.
 Running
 -------
 
-It's now available at `./prufusd`, provided that you are still in the `src`
+It's now available at `./plexusd`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./prufusd` to get the filename where it should be put, or just try these
+Run `./plexusd` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=prufusrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/prufus/prufus.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/prufus/prufus.conf"
+    echo -e "rpcuser=plexusrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/plexus/plexus.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/plexus/plexus.conf"
 
 The next time you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours;
 you can monitor its process by looking at the debug.log file, like this:
 
-    tail -f $HOME/Library/Application\ Support/prufus/debug.log
+    tail -f $HOME/Library/Application\ Support/plexus/debug.log
 
 Other commands:
 -------
 
-    ./prufusd -daemon # to start the prufus daemon.
-    ./prufus-cli --help  # for a list of command-line options.
-    ./prufus-cli help    # When the daemon is running, to get a list of RPC commands
+    ./plexusd -daemon # to start the plexus daemon.
+    ./plexus-cli --help  # for a list of command-line options.
+    ./plexus-cli help    # When the daemon is running, to get a list of RPC commands

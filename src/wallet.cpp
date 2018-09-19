@@ -21,6 +21,7 @@
 #include "timedata.h"
 #include "util.h"
 #include "utilmoneystr.h"
+#include "miner.h"
 
 #include <assert.h>
 
@@ -2179,7 +2180,7 @@ bool CWallet::CreateTransaction(const vector<pair<CScript, CAmount> >& vecSend,
                 if (nChange > 0) {
                     // Fill a vout to ourself
                     // TODO: pass in scriptChange instead of reservekey so
-                    // change transaction isn't always pay-to-prufus-address
+                    // change transaction isn't always pay-to-plexus-address
                     CScript scriptChange;
 
                     // coin control: send change to custom address
@@ -2293,6 +2294,46 @@ bool CWallet::CreateTransaction(CScript scriptPubKey, const CAmount& nValue, CWa
 }
 
 
+CAmount CWallet::GetStakeWeight() const
+{
+    // Choose coins to use
+    vector<const CWalletTx*> vwtxPrev;
+
+    static std::set<pair<const CWalletTx*, unsigned int> > setStakeCoins;
+
+    int64_t nBalance = GetBalance();
+    if(!HasStaked())
+        return 0;
+    if (nBalance <= nReserveBalance)
+        return 0;
+
+        setStakeCoins.clear();
+    if (!SelectStakeCoins(setStakeCoins, nBalance - nReserveBalance))
+        return 0;
+
+    if (setStakeCoins.empty())
+        return 0;
+
+    CAmount nWeight = 0;
+
+    int64_t nCurrentTime = GetTime();
+    //CTxDB txdb("r");
+
+    LOCK2(cs_main, cs_wallet);
+    BOOST_FOREACH(PAIRTYPE(const CWalletTx*, unsigned int) pcoin, setStakeCoins)
+    {
+
+        //BlockMap::iterator it = mapBlockIndex.find(pcoin.first->hashBlock);
+        //COutPoint prevoutStake = COutPoint(pcoin.first->GetHash(), pcoin.second);
+         //   continue;
+
+        if (nCurrentTime - pcoin.first->GetTxTime() > nStakeMinAge)
+            nWeight += pcoin.first->vout[pcoin.second].nValue;
+    }
+
+    return nWeight;
+}
+
 bool CWallet::SelectStakeCoins(std::set<std::pair<const CWalletTx*, unsigned int> >& setCoins, CAmount nTargetAmount) const
 {
 
@@ -2303,6 +2344,8 @@ bool CWallet::SelectStakeCoins(std::set<std::pair<const CWalletTx*, unsigned int
         const CWalletTx* pcoin = output.tx;
         int i = output.i;
         //make sure not to outrun target amount
+        if(!output.fSpendable)
+            continue;
         if (nAmountSelected + pcoin->vout[i].nValue > nTargetAmount)
             continue;
 
@@ -2367,28 +2410,33 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
     CAmount nCredit = 0;
     CScript scriptPubKeyKernel;
 
-    //prevent staking a time that won't be accepted
+   //prevent staking a time that won't be accepted
    // if (GetAdjustedTime() <= chainActive.Tip()->nTime)
-    //    MilliSleep(10000);
-if (GetAdjustedTime() - chainActive.Tip()->GetBlockTime() < Params().TargetSpacing())
-        MilliSleep(10000);
+   //    MilliSleep(10000);
+   // if (GetAdjustedTime() - chainActive.Tip()->GetBlockTime() < Params().TargetSpacing())
+   //   MilliSleep(10000);
 
     BOOST_FOREACH (PAIRTYPE(const CWalletTx*, unsigned int) pcoin, setStakeCoins) {
         //make sure that enough time has elapsed between
+        static int nMaxStakeSearchInterval = 60;
         CBlockIndex* pindex = NULL;
         BlockMap::iterator it = mapBlockIndex.find(pcoin.first->hashBlock);
         if (it != mapBlockIndex.end())
             pindex = it->second;
         else {
+            printf("CreateCoinStake() failed to find block index \n");
             if (fDebug)
                 LogPrintf("CreateCoinStake() failed to find block index \n");
+
             continue;
         }
-
         // Read block header
         CBlockHeader block = pindex->GetBlockHeader();
 
         bool fKernelFound = false;
+ for (unsigned int n=0; n<min(nSearchInterval,(int64_t)nMaxStakeSearchInterval) && !fKernelFound ; n++)
+        {
+
         uint256 hashProofOfStake = 0;
         COutPoint prevoutStake = COutPoint(pcoin.first->GetHash(), pcoin.second);
         nTxNewTime = GetAdjustedTime();
@@ -2452,6 +2500,8 @@ if (GetAdjustedTime() - chainActive.Tip()->GetBlockTime() < Params().TargetSpaci
             fKernelFound = true;
             break;
         }
+
+    }           //test POS v2.0.5
         if (fKernelFound)
             break; // if kernel is found stop searching
     }
@@ -3690,9 +3740,9 @@ string CWallet::SendMoney(const CTxDestination &address, CAmount nValue, CWallet
     return "";
 }
 
-bool CWallet::IsMine(const string& prufus_address)
+bool CWallet::IsMine(const string& plexus_address)
 {
-    CBitcoinAddress check_address(prufus_address);
+    CBitcoinAddress check_address(plexus_address);
     CTxDestination dest = check_address.Get();
     isminetype mine = pwalletMain ? ::IsMine(*pwalletMain, dest) : ISMINE_NO;
 

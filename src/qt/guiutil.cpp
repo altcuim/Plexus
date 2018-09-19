@@ -111,7 +111,7 @@ void setupAddressWidget(QValidatedLineEdit* widget, QWidget* parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a Plexus address (e.g. %1)").arg("FHoujpfmyWqr69iWhv8D5kpenvSYwG1MGm"));
+    widget->setPlaceholderText(QObject::tr("Enter a Plexus address (e.g. %1)").arg("PHoujpfmyWqr69iWhv8D5kpenvSYwG1MGm"));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -825,28 +825,20 @@ QString loadStyleSheet()
     QString cssName;
     QString theme = settings.value("theme", "").toString();
 
-    if (isExternal(theme)) {
-        // External CSS
-        settings.setValue("fCSSexternal", true);
-        boost::filesystem::path pathAddr = GetDataDir() / "themes/";
-        cssName = pathAddr.string().c_str() + theme + "/css/theme.css";
-    } else {
-        // Build-in CSS
-        settings.setValue("fCSSexternal", false);
-        if (!theme.isEmpty()) {
+    if(!theme.isEmpty()){
             cssName = QString(":/css/") + theme;
-        } else {
+        }
+        else {
             cssName = QString(":/css/default");
             settings.setValue("theme", "default");
         }
-    }
 
-    QFile qFile(cssName);
-    if (qFile.open(QFile::ReadOnly)) {
-        styleSheet = QLatin1String(qFile.readAll());
-    }
+        QFile qFile(cssName);
+        if (qFile.open(QFile::ReadOnly)) {
+            styleSheet = QLatin1String(qFile.readAll());
+        }
 
-    return styleSheet;
+        return styleSheet;
 }
 
 void setClipboard(const QString& str)

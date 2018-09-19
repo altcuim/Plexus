@@ -61,14 +61,15 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
     (799, uint256("0x0000028550b9e5ccc421fd670390eac85e27087b27b4fdf5f7f50a9d923829d9"))
     (3166, uint256("0x00000017065a97592f342160d89b17875b85d6cc98c8ad00dfdefef81a36d549"))
     (4582, uint256("0x7fbdd9db6f1e079cb492a15bf162eaa663adeadea28ce338d285d61cdc60199e"))
-    (10370, uint256("0x8d89a2fe9759ada3ecce05e94b13741d16baea0043a800724231537dc16a51a7"));
+    (10370, uint256("0x8d89a2fe9759ada3ecce05e94b13741d16baea0043a800724231537dc16a51a7"))
+    (60217, uint256("0x875c1bfac8f9e60aeaf936e074a21444fdf1c77d0a7038920e1730310959a9fe"));
 
 
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1528941316, // * UNIX timestamp of last checkpoint block 1528941316
-    6012,    // * total number of transactions between genesis and last checkpoint
+    1532315878, // * UNIX timestamp of last checkpoint block 1528941316
+    118753,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     1440       // * estimated number of transactions per day after checkpoint
 };
@@ -224,14 +225,14 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet prufus addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet prufus script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet plexus addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet plexus script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        // Testnet prufus BIP32 pubkeys start with 'DRKV'
+        // Testnet plexus BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet prufus BIP32 prvkeys start with 'DRKP'
+        // Testnet plexus BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet prufus BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet plexus BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
 
@@ -275,8 +276,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // Prufus: 1 day
-        nTargetSpacing = 1 * 60;        // Prufus: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // Plexus: 1 day
+        nTargetSpacing = 1 * 60;        // Plexus: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1454124731;
         genesis.nBits = 0x207fffff;

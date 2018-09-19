@@ -1,6 +1,9 @@
 #include "masternodelist.h"
 #include "ui_masternodelist.h"
 
+#include "createmasternodedialog.h"
+
+
 #include "activemasternode.h"
 #include "clientmodel.h"
 #include "guiutil.h"
@@ -26,6 +29,7 @@ MasternodeList::MasternodeList(QWidget* parent) : QWidget(parent),
 
     ui->startButton->setEnabled(false);
 
+
     int columnAliasWidth = 100;
     int columnAddressWidth = 200;
     int columnProtocolWidth = 60;
@@ -50,6 +54,10 @@ MasternodeList::MasternodeList(QWidget* parent) : QWidget(parent),
 
     timer = new QTimer(this);
     connect(timer, SIGNAL(timeout()), this, SLOT(updateMyNodeList()));
+
+    // Creat new MN config
+    connect(ui->pushButtonCreateMN, SIGNAL(clicked()), this, SLOT(pushButtonCreateMnClicked()));
+
     timer->start(1000);
 
     // Fill MN list
@@ -317,4 +325,12 @@ void MasternodeList::on_tableWidgetMyMasternodes_itemSelectionChanged()
 void MasternodeList::on_UpdateButton_clicked()
 {
     updateMyNodeList(true);
+}
+
+
+void MasternodeList::pushButtonCreateMnClicked()
+{
+    MNodeConfigDialog* addmnnode = new MNodeConfigDialog();
+        addmnnode->show();
+
 }
